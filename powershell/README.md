@@ -15,7 +15,11 @@ Install the pester module for testing: `install-module pester -MinimumVersion 5.
 
 ## To Run Program
 
-To run the tests:
+1. Run `. .\medals.ps1`
+1. `Build-MedalTable $MedalResults`
+
+
+## To run the tests:
 
 1. `cd powershell`
 1. `Import-Module Pester` 
