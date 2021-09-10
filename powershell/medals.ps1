@@ -8,9 +8,10 @@ function Build-MedalTable {
 
     $hash =@{}
 
-    # Add your code here
+    
     # Create a medal table based on the provided result list
     # First place gives 3 points, second place 2 points and third place 1 point
+    
     $tbl = $Medals.podium | ForEach-Object { 
       [PSCustomObject]@{
          Name=$_.split('.')[1] 

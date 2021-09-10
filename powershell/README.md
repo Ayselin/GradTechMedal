@@ -1,4 +1,7 @@
-# Grad Tech Test - PowerShell
+# Welcome to my submission for the ECS Technical Test! Grad Tech Test - PowerShell
+
+You will find my solution in [medals.ps1]
+
 
 ## Clone this repository
 
@@ -13,6 +16,8 @@ git push -u origin master
 
 Install the pester module for testing: `install-module pester -MinimumVersion 5.0.2 -MaximumVersion 5.0.2`
 
+Since Iam using a MAcBook I am lucky there is a program to rum on
+
 ## To Run Program
 
 * `. .\medals.ps1`
@@ -25,4 +30,5 @@ Install the pester module for testing: `install-module pester -MinimumVersion 5.
 * `Import-Module Pester` 
 * `. .\medals.ps1`
 * `invoke-pester`
+
 
