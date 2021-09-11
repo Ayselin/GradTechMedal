@@ -16,7 +16,6 @@ git push -u origin master
 
 Install the pester module for testing: `install-module pester -MinimumVersion 5.0.2 -MaximumVersion 5.0.2`
 
-Since Iam using a MAcBook I am lucky there is a program to rum on
 
 ## To Run Program
 
@@ -26,6 +25,7 @@ Since Iam using a MAcBook I am lucky there is a program to rum on
 
 ## To run the tests:
 
+* `pwsh`
 * `cd powershell`
 * `Import-Module Pester` 
 * `. .\medals.ps1`
